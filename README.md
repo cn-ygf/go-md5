@@ -1,5 +1,17 @@
 # go-md5 一个go语言写的md5计算工具
 
+## 下载编译
+```shell
+git clone https://github.com/cn-ygf/go-md5
+cd go-md5/cmd
+# 编译当前目标平台
+go build
+# 编译所有平台
+chmod +x build.sh
+./build.sh
+```
+
+## 使用说明
 ```shell
 go-md5 v1.0.1
 open source:http://github.com/cn-ygf/go-md5
