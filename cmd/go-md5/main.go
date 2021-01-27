@@ -57,7 +57,7 @@ func usage() {
 	fmt.Println("示例:")
 	fmt.Println("\tgo-md5 d:\\go-md5.txt\t计算单个文件")
 	fmt.Println("\tgo-md5 d:\\go-md5\t计算指定目录所有文件")
-	fmt.Println("\tgo-md5 .\t\t计算当前目录所有文件md5")
+	fmt.Println("\tgo-md5 .\t\t计算当前目录所有文件")
 	fmt.Println("\tgo-md5 d:\\go-md5 d:\\result\t保存结果到指定目录(默认当前目录)")
 }
 
